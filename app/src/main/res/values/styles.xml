@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="AppTheme.Base" />
+
+    <!-- Base application theme. -->
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="android:textViewStyle">@style/AppTheme.TextView</item>
+        <item name="editTextStyle">@style/AppTheme.EditText</item>
+        <item name="buttonStyle">@style/AppTheme.Button</item>
+    </style>
+
+    <style name="EditTextAppearance" parent="@android:style/Widget.EditText">
+        <item name="android:textColorHint">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="AppTheme.PopupTheme" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppTheme.OverflowStyle" parent="Widget.AppCompat.ActionButton.Overflow">
+        <!--<item name="android:src">@drawable/ic_action_overflow</item>-->
+    </style>
+
+
+    <style name="AppTheme.Toolbar" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:actionOverflowButtonStyle">@style/AppTheme.OverflowStyle</item>
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:fontFamily">sans-serif-normal</item>
+    </style>
+
+    <style name="AppTheme.TextView" parent="android:Widget.TextView">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">sans-serif-normal</item>
+    </style>
+
+    <style name="AppTheme.EditText" parent="android:Widget.EditText">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:fontFamily">sans-serif-normal</item>
+    </style>
+
+    <style name="AppTheme.Button" parent="android:Widget.Button">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">sans-serif-normal</item>
+    </style>
+
+    <style name="Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:fontFamily">sans-serif-normal</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="Toolbar.Tab" parent="android:TextAppearance.Widget.TabWidget">
+        <item name="android:fontFamily">sans-serif-normal</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="AppTheme.Fullscreen" parent="@style/Theme.AppCompat.Light">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="AppTheme.Dialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:background">@color/colorBackground</item>
+    </style>
+</resources>
